@@ -1,6 +1,6 @@
 package com.example.demo.model;
 
-import com.example.demo.store.SecurityDB.User;
+import com.example.demo.store.first.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

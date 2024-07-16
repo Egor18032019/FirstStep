@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.store.SecurityDB.User;
-import com.example.demo.store.SecurityDB.repository.UserRepository;
+import com.example.demo.store.first.User;
+import com.example.demo.store.first.repository.UserRepository;
 import com.example.demo.utils.RoleType;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

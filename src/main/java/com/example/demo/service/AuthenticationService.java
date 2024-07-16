@@ -3,7 +3,7 @@ package com.example.demo.service;
 import com.example.demo.model.JwtAuthenticationResponse;
 import com.example.demo.model.SignInRequest;
 import com.example.demo.model.SignUpRequest;
-import com.example.demo.store.SecurityDB.User;
+import com.example.demo.store.first.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

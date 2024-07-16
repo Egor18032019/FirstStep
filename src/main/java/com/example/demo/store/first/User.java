@@ -1,4 +1,4 @@
-package com.example.demo.store.SecurityDB;
+package com.example.demo.store.first;
 
 import com.example.demo.store.entity.AbstractBaseEntity;
 import com.example.demo.utils.RoleType;

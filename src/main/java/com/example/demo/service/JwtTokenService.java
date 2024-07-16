@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 
 import com.example.demo.model.JwtAuthenticationResponse;
-import com.example.demo.store.SecurityDB.User;
+import com.example.demo.store.first.User;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;

@@ -1,6 +1,6 @@
-package com.example.demo.store.SecurityDB.repository;
+package com.example.demo.store.first.repository;
 
-import com.example.demo.store.SecurityDB.User;
+import com.example.demo.store.first.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
