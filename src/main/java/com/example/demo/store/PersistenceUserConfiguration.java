@@ -35,7 +35,7 @@ public class PersistenceUserConfiguration {
     @Primary
     @Bean
     public LocalContainerEntityManagerFactoryBean userEntityManager() {
-        System.out.println("loading config 1");
+        System.out.println("loading config User");
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(userDataSource());
         em.setPackagesToScan("com.example.demo.store.first");

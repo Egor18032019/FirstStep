@@ -32,7 +32,7 @@ public class PersistenceProductConfiguration {
 
     @Bean
     public LocalContainerEntityManagerFactoryBean productEntityManager() {
-        System.out.println("loading config 2 ");
+        System.out.println("loading config Product ");
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(productDataSource());
         em.setPackagesToScan("com.example.demo.store.second");
