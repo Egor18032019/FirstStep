@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(EndPoint.ADMIN)
 @Tag(name = "Енд поинт для администратора")
+// Работа с пользователями. Добавление удаление изменения роли
 public class AdminController {
 
     @GetMapping

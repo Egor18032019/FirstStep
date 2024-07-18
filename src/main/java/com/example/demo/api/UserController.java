@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(EndPoint.USER)
 @Tag(name = "Для пользователей")
+// просмотр аналитики и истории
 public class UserController {
     @GetMapping
     @PreAuthorize("hasRole('USER')")

@@ -17,4 +17,6 @@ public class EndPoint {
     public static final String great = "/great";
     public static final String delete = "/delete";
 
+    public static final String INFO = "/info";
+    public static final String LIST_DB ="/base" ;
 }

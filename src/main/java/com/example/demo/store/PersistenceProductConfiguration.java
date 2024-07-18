@@ -50,7 +50,7 @@ public class PersistenceProductConfiguration {
     @Bean
     public DataSource productDataSource() {
         final DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName(Preconditions.checkNotNull(env.getProperty("jdbc.driverClassName.second-datasource")));
+        dataSource.setDriverClassName(Preconditions.checkNotNull(env.getProperty("driverClassName.second-datasource")));
         dataSource.setUrl(Preconditions.checkNotNull(env.getProperty("product.jdbc.url")));
         dataSource.setUsername(Preconditions.checkNotNull(env.getProperty("second-datasource.username")));
         dataSource.setPassword(Preconditions.checkNotNull(env.getProperty("second-datasource.password")));
