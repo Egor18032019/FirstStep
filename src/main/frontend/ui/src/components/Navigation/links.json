@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Аналитика",
+      "href": "/analytics"
+    },
+    {
+      "label": "История",
+      "href": "/history"
+    },
+    {
+      "label": "Базы Данных",
+      "href": "/info"
+    },
+    {
+      "label": "Создание категории",
+      "href": "/creat/category"
+    },
+    {
+      "label": "Контакты",
+      "href": "/contact"
+    }
+  ]
+}
